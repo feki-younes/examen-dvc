@@ -1,6 +1,11 @@
 # Examen DVC et Dagshub
 Dans ce dépôt vous trouverez l'architecture proposé pour mettre en place la solution de l'examen. 
 
+---
+**Nom :** Younes FEKI  
+**Email :** younes.feki.93@gmail.com  
+**DagsHub Repo :** [https://dagshub.com/feki-younes/examen-dvc.git](https://dagshub.com/feki-younes/examen-dvc.git)
+---
 ```bash       
 ├── examen_dvc          
 │   ├── data       
