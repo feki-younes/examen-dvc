@@ -1,10 +1,14 @@
-
-
+#!/bin/bash
+set -e # Exit immediately if a command exits with a non-zero status
 
 # 1. Create and activate virtual environment, install dependencies
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r src/requirements.txt
+
+# Ensure all commands run inside the virtual environment
+export VIRTUAL_ENV="$(pwd)/.venv"
+export PATH="$VIRTUAL_ENV/bin:$PATH"
 
 
 
