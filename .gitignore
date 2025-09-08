@@ -1,2 +1,27 @@
-/venv
-/clean_data.csv
+
+# Python virtual environments
+.venv/
+venv/
+
+# Data files
+data/raw/
+data/processed/
+data/predictions.csv
+clean_data.csv
+
+# Model files
+models/*.pkl
+models/model.pkl
+models/best_params.pkl
+
+# Metrics
+metrics/scores.json
+
+# Jupyter and Python artifacts
+__pycache__/
+*.pyc
+*.ipynb_checkpoints
+
+# DVC files
+.dvc/
+.dvc/cache/
